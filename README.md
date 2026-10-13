@@ -14,3 +14,16 @@ IMAP: 993
 SMTP: 25
 
 Email: alert@lab.local
+
+
+# Quick Start
+
+dnf install -y git
+
+git clone https://github.com/georgiaalex97/smtp-lab.git
+
+cd smtp-lab
+
+chmod +x *.sh
+
+./deploy.sh
